@@ -1,0 +1,60 @@
+[colors]
+foreground = "#{{ foreground }}"
+background = "#{{ background }}"
+cursor_bg = "#{{ foreground }}"
+cursor_border = "#{{ foreground }}"
+cursor_fg = "#{{ background }}"
+selection_bg = "#{{ selection }}"
+selection_fg = "#{{ base07 }}"
+
+ansi = [
+  "#{{ base00 }}",
+  "#{{ base01 }}",
+  "#{{ base02 }}",
+  "#{{ base03 }}",
+  "#{{ base04 }}",
+  "#{{ base05 }}",
+  "#{{ base06 }}",
+  "#{{ base07 }}"
+]
+
+brights = [
+  "#{{ base08 }}",
+  "#{{ base09 }}",
+  "#{{ base0A }}",
+  "#{{ base0B }}",
+  "#{{ base0C }}",
+  "#{{ base0D }}",
+  "#{{ base0E }}",
+  "#{{ base0F }}"
+]
+
+[colors.tab_bar]
+background = "#{{ background }}"
+
+[colors.tab_bar.active_tab]
+bg_color = "#{{ background }}"
+fg_color = "#{{ foreground }}"
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#{{ background_inactive }}"
+fg_color = "#{{ foreground }}"
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = "#{{ background_inactive }}"
+fg_color = "#{{ foreground }}"
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[metadata]
+name = 'Dark+'

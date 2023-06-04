@@ -1,0 +1,29 @@
+colors:
+  primary:
+    background: "#1e1e1e"
+    foreground: "#cccccc"
+  search:
+    matches:
+      foreground: CellBackground
+      background: "#264F78"
+    footer_bar:
+      background: "#1e1e1e"
+      foreground: "#cccccc"
+  normal:
+    black: "#1e1e1e"
+    magenta: "#cd3131"
+    green: "#0dbc79"
+    yellow: "#e5e510"
+    blue: "#2472c8"
+    red: "#bc3fbc"
+    cyan: "#11a8cd"
+    white: "#e5e5e5"
+  bright:
+    black: "#666666"
+    magenta: "#f14c4c"
+    green: "#23d18b"
+    yellow: "#f5f543"
+    blue: "#3b8eea"
+    red: "#d670d6"
+    cyan: "#29b8db"
+    white: "#e5e5e5"
